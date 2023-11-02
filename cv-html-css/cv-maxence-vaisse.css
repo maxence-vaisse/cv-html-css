@@ -1,0 +1,67 @@
+html body{
+    margin: 0;
+    background-image: url(/images/background.jpg);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.titre-image-principale{
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titre-image-principale .le-titre{
+    background-color: blanchedalmond;
+    padding-top: 15px; padding-bottom: 15px; color: grey;
+}
+
+.photo-profil{
+    border-radius: 150px;
+}
+
+.sous-titre{
+    text-decoration: underline;
+}
+
+.Objectif-professionel{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-competences{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+.btn_pdf{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    background: #1E90FF;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+
+.PDF-footer{
+    color: white;
+    text-decoration: underline;
+}
+
+#column-3{
+    column-count: 3;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
